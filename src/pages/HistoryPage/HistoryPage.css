@@ -1,0 +1,35 @@
+div.order-history-title {
+    display: block;
+    width: 100vw;
+    text-align: left;
+}
+div.order-history-title h1 {
+    padding: 16px;
+    font-size: 18pt;
+}
+
+div.order-history-no-orders {
+    display: block;
+    padding:32px;
+    font-weight: bold;
+}
+
+div.order-history-container {
+    display: block;
+}
+
+div.order-history-item {
+    display: block;
+    padding:12px;
+    padding-left: 64px;
+}
+
+div.order-history-item-images {
+    display: block;
+    padding-left:64px;
+}
+
+div.order-history-item-images img {
+    width: 150px;
+    padding:0px 8px;
+}

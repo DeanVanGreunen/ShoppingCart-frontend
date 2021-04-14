@@ -1,0 +1,40 @@
+div.product-container {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ECECEC;
+    padding:8px;
+    margin:8px 8px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+div.product-image-container {
+    display: block;
+    text-align: center;
+}
+
+
+div.product-image-container > img {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+            max-width: 100px;
+}
+
+div.product-name {
+    display: block;
+    text-align: center;
+    padding-top:12px;
+}
+
+div.product-price {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top:12px;
+}

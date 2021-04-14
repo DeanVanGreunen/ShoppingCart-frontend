@@ -1,0 +1,129 @@
+div.cart-page-title {
+    display: block;
+    width: 100vw;
+    text-align: left;
+}
+div.cart-page-title h1 {
+    padding: 16px;
+    font-size: 18pt;
+}
+
+div.cart-page-product-container {
+    display: block;
+    width: 640px;
+    margin: 0px auto;
+}
+
+div.cart-page-product-item {
+    display: block;
+}
+
+div.cart-page-product-item-quantity {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+div.cart-page-product-item-quantity-value {
+    display: block;
+    font-size: 18pt;
+    background: #F5F5F5;
+    text-align: center;
+    color:#202020;
+    padding: 8px 16px;
+    min-width: 64px;
+    border-radius: 8px;
+}
+
+div.cart-page-product-item-quantity-sub-text {
+    display: block;
+    font-size:8pt;
+    text-align: center;
+}
+
+div.cart-page-product-item-name {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 64px;
+    height: 64px;
+    padding-left: 12px;
+    max-width: 420px;
+    width: 100%;
+}
+div.cart-page-product-item-price {
+    display: inline-block;
+    padding-top: 24px;
+    vertical-align: top;
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+div.cart-page-product-item-price-title {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+}
+div.cart-page-product-item-price-sub-text {
+    display: block;
+    text-align: right;
+    font-size: 8pt;
+}
+
+button.cart-page-product-item-remove-button {
+    display: inline-block;
+    transform: translateY(-32px) translateX(8px);
+    border: none;
+    background: #FFF;
+}
+
+div.cart-page-product-item-remove-button-title {
+    display: block;
+    font-size: 12pt;
+    background: #202020;
+    text-align: center;
+    color:#ff0000;
+    width:32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+div.cart-page-product-item-remove-button-sub-text {
+    display: block;
+    font-size:8pt;
+    text-align: center;
+}
+
+div.cart-page-no-products {
+    padding-left: 32px;
+}
+
+div.cart-page-total {
+    display: block;
+    width: 640px;
+    margin: 0px auto;
+    text-align: right;
+}
+
+div.cart-page-total-value {
+    font-weight: bold;
+    padding: 12px;
+    font-size: 20pt;
+}
+
+button.cart-page-pay-button {
+    display: block;
+    width: 640px;
+    margin: 0px auto;
+    text-align: center;
+    border: none;
+    background: #202020;
+    color: #F5F5F5;
+    padding: 4px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.cart-page-pay-button:disabled {
+    background: #5e5e5e;
+}

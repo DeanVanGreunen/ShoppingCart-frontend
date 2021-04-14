@@ -1,0 +1,197 @@
+div.navigational-bar {
+    display: block;
+    margin:0; padding:0px;
+    padding-left: 12px;
+    background: #ECECEC;
+    height: 48px;
+    line-height: 48px;
+}
+
+div.navigational-bar-logo {
+    display: inline-block;
+    font-weight: bold;
+    color:#202020;
+    vertical-align: top;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+div.navigational-bar-menu {
+    display: inline-block;
+    color:#202020;
+    vertical-align: top;
+    text-align: right;
+    position: absolute;
+    right:0px;
+}
+
+div.navigational-bar-menu > a {
+    display: inline-block;
+    margin:0px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+            padding: 0px 8px;
+    color:#202020;
+}
+
+div.navigational-bar-menu > a:hover {
+    background: white;
+}
+
+div.navigational-bar-menu > img {    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+div#my-profile-container {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    background: #ececec;
+}
+
+div.my-profile-container > a {
+    display: block;
+    padding: 12px;
+    padding-left:16px;
+    cursor: pointer;
+    color:#202020;
+}
+
+div.my-profile-container > a:hover {
+    font-weight: bold;
+}
+
+div#my-cart {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 420px;
+    background: #ececec;
+    padding: 32px;
+    overflow-x: hidden;
+}
+
+div.my-cart > h1 {
+    font-size: 16pt;
+    display: block;
+    padding-bottom: 16px;
+}
+
+table.my-cart-items {
+    display: block;
+    padding-bottom: 16px;
+}
+
+table.my-cart-items tr {
+    padding-bottom: 8px;
+}
+
+div.my-cart-item-quantity {
+    display: block;
+    text-align: center;
+}
+
+div.my-cart-item-quantity-value {
+    background: #F5F5F5;
+    border-radius: 8px;
+    font-size: 12pt;
+    min-width: 48px;
+    line-height: 48px;
+    min-height: 48px;
+}
+
+div.my-cart-item-quantity-title {
+    font-size: 8pt;
+}
+
+div.my-cart-item-name {
+    padding-left: 8px;
+    height: 48px;
+    line-height: 32px;
+    max-width: 232px;
+    width: 232px;
+    text-align: left;
+}
+
+div.my-cart-item-price {
+    display: block;
+    text-align: center;
+}
+
+div.my-cart-item-price-value {
+    background: #F5F5F5;
+    border-radius: 8px;
+    font-size: 12pt;
+    min-width: 64px;
+    line-height: 48px;
+    min-height: 48px;
+    padding: 0px 12px;
+}
+
+div.my-cart-item-price-title {
+    font-size: 8pt;
+}
+
+table.totalPrice {
+    display: block;
+    width: 100%;
+}
+
+td.boldTotal {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+td.rightAlignedPrice {
+    width: 100%;
+    text-align:right;
+    font-weight: bold;
+}
+
+div.payButton {
+    display: block;
+    background:#202020;
+    color:#F5F5F5;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+div.payButton:hover {
+    background: #000;
+}
+
+button.clearCartButton {
+    display: block;
+    margin-top: 32px;
+    border: none;
+    font-size: 12pt;
+    background: #202020;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 32px auto 0px auto;
+}
+
+span.cart-empty-span {
+    display: block;
+    padding-bottom: 12px;
+}

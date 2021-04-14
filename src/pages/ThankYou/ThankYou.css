@@ -1,0 +1,24 @@
+div.thank-you-message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 48px);
+}
+
+div.thank-you-message {
+    display: block;
+    font-size: 24pt;
+}
+
+div.go-to-order-history {
+    display: block;
+    margin:32px;
+    
+    background: #202020;
+    color: #F5F5F5;
+    padding:12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
